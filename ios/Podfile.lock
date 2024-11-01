@@ -1,0 +1,44 @@
+PODS:
+  - Flutter (1.0.0)
+  - fvp (0.27.0):
+    - Flutter
+    - FlutterMacOS
+    - mdk (~> 0.29.1)
+  - mdk (0.29.1)
+  - photo_manager (2.0.0):
+    - Flutter
+    - FlutterMacOS
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - fvp (from `.symlinks/plugins/fvp/darwin`)
+  - photo_manager (from `.symlinks/plugins/photo_manager/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - mdk
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  fvp:
+    :path: ".symlinks/plugins/fvp/darwin"
+  photo_manager:
+    :path: ".symlinks/plugins/photo_manager/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  fvp: b843e46165476a3702ec3c80f781488ef5089964
+  mdk: 3c49affb38303cf86fd9f8ea1e05fe029c4dc194
+  photo_manager: ff695c7a1dd5bc379974953a2b5c0a293f7c4c8a
+  video_player_avfoundation: 7c6c11d8470e1675df7397027218274b6d2360b3
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.15.2
